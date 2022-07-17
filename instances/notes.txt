@@ -1,0 +1,7 @@
+1. Otworz powershella
+2. cd C:\Projects\AngularContextBoundriesSeparation\instances
+3. 
+DEV: ./deployment.ps1 -port 4200 -environmentValue "development" -version "1.2.0"
+ACC: ./deployment.ps1 -port 4201 -environmentValue "acceptance" -version "1.2.0"
+PRD: ./deployment.ps1 -port 4202 -environmentValue "production" -version "1.2.0"
+

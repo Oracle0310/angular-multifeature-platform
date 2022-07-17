@@ -1,0 +1,3 @@
+TODO:
+1. Co w przypadku jak mamy paczke commonowa dla featurów (projects) i dwa featury korzystaja z różnej wersji paczki commonowej, a maja stac na jednej instancji?
+2. Jak uwspólnić pliki pomiędzy instancjami w instances?

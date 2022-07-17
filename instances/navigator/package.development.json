@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "tnd-fte-tracker": "latest",
+    "tnd-hr-process-be": "latest",
+    "tnd-hr-process-nl": "latest",
+    "tnd-sharp": "latest"
+  }
+}

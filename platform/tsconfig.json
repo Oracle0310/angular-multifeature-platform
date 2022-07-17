@@ -1,0 +1,58 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "paths": {
+      "tnd-asset-list": [
+        "dist/tnd-asset-list/tnd-asset-list",
+        "dist/tnd-asset-list"
+      ],
+      "tnd-fte-tracker": [
+        "dist/tnd-fte-tracker/tnd-fte-tracker",
+        "dist/tnd-fte-tracker"
+      ],
+      "tnd-hr-process-be": [
+        "dist/tnd-hr-process-be/tnd-hr-process-be",
+        "dist/tnd-hr-process-be"
+      ],
+      "tnd-hr-process-nl": [
+        "dist/tnd-hr-process-nl/tnd-hr-process-nl",
+        "dist/tnd-hr-process-nl"
+      ],
+      "tnd-provisioning": [
+        "dist/tnd-provisioning/tnd-provisioning",
+        "dist/tnd-provisioning"
+      ],
+      "tnd-sharp": [
+        "dist/tnd-sharp/tnd-sharp",
+        "dist/tnd-sharp"
+      ]
+    },
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2017",
+    "module": "es2020",
+    "lib": [
+      "es2020",
+      "dom"
+    ]
+  },
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "strictTemplates": true
+  }
+}
