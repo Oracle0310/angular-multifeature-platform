@@ -3,9 +3,19 @@
   "compileOnSave": false,
   "compilerOptions": {
     "paths": {
+      "core": [
+        "dist/core/core",
+        "dist/core"
+      ],
       "tnd-asset-list": [
         "dist/tnd-asset-list/tnd-asset-list",
-        "dist/tnd-asset-list"
+        "dist/tnd-asset-list",
+        "dist/tnd-platform-core/tnd-platform-core",
+        "dist/tnd-platform-core"
+      ],
+      "tnd-core": [
+        "dist/tnd-core/tnd-core",
+        "dist/tnd-core"
       ],
       "tnd-fte-tracker": [
         "dist/tnd-fte-tracker/tnd-fte-tracker",
@@ -18,6 +28,10 @@
       "tnd-hr-process-nl": [
         "dist/tnd-hr-process-nl/tnd-hr-process-nl",
         "dist/tnd-hr-process-nl"
+      ],
+      "tnd-platform-core": [
+        "dist/tnd-platform-core/tnd-platform-core",
+        "dist/tnd-platform-core"
       ],
       "tnd-provisioning": [
         "dist/tnd-provisioning/tnd-provisioning",

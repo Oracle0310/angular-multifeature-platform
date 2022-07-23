@@ -1,11 +1,14 @@
 {
   "name": "tnd-asset-list",
-  "version": "2.3.0",
+  "version": "2.3.3",
   "peerDependencies": {
     "@angular/common": "^13.2.0",
     "@angular/core": "^13.2.0",
-    "@ngrx/store": "13.0.0"
+    "tnd-core": "1.0.0"
   },
+  "bundledDependencies": [
+    "tnd-core"
+  ],
   "dependencies": {
     "tslib": "^2.3.0"
   }

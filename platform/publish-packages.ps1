@@ -1,8 +1,10 @@
 ﻿$path = "C:\Projects\AngularContextBoundriesSeparation\platform\projects"
 cd $path
-$featuresToBuild = ls
 
-$featuresToBuild = $featuresToBuild | where-object Name -ne '@platform'
+ng build "tnd-platform-core"
+
+$featuresToBuild = ls
+$featuresToBuild = $featuresToBuild | where-object Name -ne "tnd-platform-core"
 
 foreach($feature in $featuresToBuild){
     "[$feature] Building..."

@@ -9,9 +9,7 @@
     "types": []
   },
   "exclude": [
-  ],
-  "include": [
-    "../tnd-platform-core",
-    "src"
+    "src/test.ts",
+    "**/*.spec.ts"
   ]
 }

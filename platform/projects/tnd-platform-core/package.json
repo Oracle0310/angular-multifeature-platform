@@ -1,6 +1,6 @@
 {
-  "name": "tnd-hr-process-be",
-  "version": "3.0.0",
+  "name": "tnd-platform-core",
+  "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^13.2.0",
     "@angular/core": "^13.2.0"

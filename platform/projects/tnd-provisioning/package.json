@@ -1,11 +1,14 @@
 {
   "name": "tnd-provisioning",
-  "version": "2.3.0",
+  "version": "2.3.8",
   "peerDependencies": {
     "@angular/common": "^13.2.0",
     "@angular/core": "^13.2.0",
-    "@ngrx/store": "13.2.0"
+    "tnd-core": "2.0.0"
   },
+  "bundledDependencies": [
+    "tnd-core"
+  ],
   "dependencies": {
     "tslib": "^2.3.0"
   }
